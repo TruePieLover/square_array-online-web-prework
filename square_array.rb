@@ -1,11 +1,14 @@
 def square_array(array)
   length = array.length
   newarray = []
-  array.each do |x|
-    newarray.collect { |x| x**2 }
+  array.each do |x| 
+    newarray << x**2
   end
-  x = 0
-  while x < array.length do
-    newarray.collect(0) { |x| x**2 }
   newarray
 end
+
+
+
+new_array = []  
+  array.each { |number| new_array << number ** 2 } # Shorthand syntax for a do-block
+  new_array # Return keyword is not necessary in the last line of a method
