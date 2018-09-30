@@ -2,7 +2,7 @@ def square_array(array)
   length = array.length
   newarray = []
   array.each do |x|
-  a.collect { |num| num**2 }
+  newarray.collect { |num| num**2 }
   end
 
 end
