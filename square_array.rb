@@ -3,7 +3,7 @@ def square_array(array)
 
   newarray = []
   array.each do |x|
-   newarray.inject([]){|a,b| a << b**2}
+   newarray = array.inject([]){|a,b| a << b**2}
   end
   newarray
 
