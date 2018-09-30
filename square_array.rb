@@ -6,6 +6,6 @@ def square_array(array)
   end
   x = 0
   while x < array.length do
-    newarray.collect { |x| x**2 }
+    newarray.collect(0) { |x| x**2 }
   newarray
 end
