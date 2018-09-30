@@ -4,5 +4,5 @@ def square_array(array)
   array.each do |x|
   newarray.inject([]){|x| x*x}
   end
-  newarray
+
 end
