@@ -4,5 +4,5 @@ def square_array(array)
   array.each do |x|
     newarray.collect { |x| x**2 }
   end
-
+  newarray
 end
